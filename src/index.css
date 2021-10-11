@@ -1,8 +1,11 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
+  text-decoration: none;
 }
 body {
   margin: 0;
