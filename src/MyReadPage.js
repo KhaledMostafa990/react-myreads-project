@@ -64,21 +64,21 @@ class MyReadPage extends Component {
 
                     <BookShelf
                         booksIn={this.props.booksIn}
-                        bookShelf={'currentlyReading'}
+                        shelfName={this.props.shelfName.includes('currentlyReading') ? 'currentlyReading' : ''}
                         shelfTitle={'Currently Reading'} 
                         onShelfChange={this.props.onShelfChange}
                         /> 
 
                     <BookShelf     
                         booksIn={this.props.booksIn}
-                        bookShelf={'wantToRead'}
+                        shelfName={this.props.shelfName.includes('wantToRead') ? 'wantToRead' : ''}
                         shelfTitle={'Want To Read'}
                         onShelfChange={this.props.onShelfChange}
                         />
                     
                     <BookShelf
                         booksIn={this.props.booksIn}
-                        bookShelf={'read'}
+                        shelfName={this.props.shelfName.includes('read') ? 'read' : ''}
                         shelfTitle={'Read'}
                         onShelfChange={this.props.onShelfChange}
                     />
