@@ -1,56 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import BookShelf from './BookShelf'
-// import * as BooksAPI from './BooksAPI'
-// import SearchPage from './SearchPage'
-// import PropTypes from 'prop-types'
-// import SearchPage from './SearchPage'
-// import {Route} from 'react-router-dom'
+
 
 class MyReadPage extends Component {
 
-//     state = {
-//         // Defined array for all Books data 
-//         books: [],
-//     }
-// componentDidMount() {
-//     BooksAPI.getAll()
-//       .then((res)=> {
-
-//         this.setState({
-//             books:res,
-    
-//         })
-//       })
-//   }
-//   onShelfChange = (book , e) => {
-//     const selectedShelf = e.target.value;
-//     // const currentShelf = book.shelf
-//     // console.log(book.id, selectedShelf, currentShelf);
-//     BooksAPI.update(book , selectedShelf)
-
-//     setInterval(() => {
-//         BooksAPI.getAll()
-//             .then((allBooks)=> {
-//                 this.setState({
-//                     books: allBooks
-//                 })
-//             })
-//     }, 200);
-        
-//   }
-
-// updateQuery = (query) => {
-//     this.setState({query: query.trim()})
-//     BooksAPI.search(query)
-//         .then((res)=>{
-//              this.setState({
-//             booksFromSearch: res
-//         })
-//             console.log(this.state.booksFromSearch[0])
-//         })
-//     console.log(query)
-// }
 
   render() {
         return (
@@ -102,44 +56,3 @@ class MyReadPage extends Component {
 
 
 export default MyReadPage
-
-//  <div className="bookshelf">
-//                             <h2 className="bookshelf-title">{`Want to Read`}  </h2>
-
-//                             <div className="bookshelf-books">
-//                                 <ol className="books-grid">
-//                                 {this.state.books.map((book)=> ( 
-//                                     book.shelf === 'wantToRead' ? 
-
-//                                         <li key={book.id}>
-//                                             <SingleBook 
-//                                                 bookTitle={book.title}
-//                                                 bookAuthors={book.authors}
-//                                                 bookImage={book.imageLinks.thumbnail}
-//                                             />
-//                                         </li>
-//                                     : ''
-//                                 ))}
-//                                 </ol>
-//                             </div>
-//                         </div>
-
-//                         <div className="bookshelf">
-//                             <h2 className="bookshelf-title"> {`Read`}  </h2>
-
-//                             <div className="bookshelf-books">
-//                                 <ol className="books-grid">
-//                                 {this.state.books.map((book)=> ( 
-//                                     book.shelf === 'read' ? 
-//                                         <li key={book.id}>
-//                                             <SingleBook 
-//                                                 bookTitle={book.title}
-//                                                 bookAuthors={book.authors}
-//                                                 bookImage={book.imageLinks.thumbnail}
-//                                             />
-//                                         </li>
-//                                     : ''
-//                                 ))}
-//                                 </ol>
-//                             </div>
-//                         </div>

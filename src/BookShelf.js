@@ -12,16 +12,15 @@ class BookShelf extends Component {
                     <div className="bookshelf-books">
                         <ol className="books-grid">    
                             {this.props.booksIn.map((book)=> (
-                                // book.shelf === this.props.bookShelf && book.id ? 
+                                
                                  this.props.shelfName.includes(book.shelf) ?
                                     <li key={book.id}>
                                         <SingleBook
                                             bookTitle={book.title}
-                                            bookAuthors={book.authors}
+                                            bookAuthors={book.authors ? book.authors : 'Unknown'}
                                             bookImage={book.imageLinks.thumbnail}
                                             currentValue={book.shelf}
                                             onShelfChange={(e)=> this.props.onShelfChange(book,e)}
-                                            // newSlected={this.props.newSlected}
                                             />                          
                                     </li> 
                             
@@ -38,7 +37,7 @@ class BookShelf extends Component {
 
 BookShelf.propTypes = {
     booksIn: PropTypes.array.isRequired,
-    // bookShelf: PropTypes.string.isRequired,
+    shelfName: PropTypes.string.isRequired,
     shelfTitle: PropTypes.string.isRequired,
     onShelfChange: PropTypes.func.isRequired
 }

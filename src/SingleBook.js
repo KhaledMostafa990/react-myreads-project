@@ -1,14 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
  class SingleBook extends Component {   
-    // state = {
-    //     select: this.props.currentValue,
-    // }
-
 
     render() {
-        // console.log(this.props.currentValue)
-        // console.log(this.state.select)
         
         return (
             <div className="book">
@@ -33,9 +27,7 @@ import PropTypes from 'prop-types'
 }
 SingleBook.propTypes = {
     bookTitle: PropTypes.string.isRequired,
-    bookAuthors: PropTypes.array.isRequired,
     bookImage: PropTypes.string.isRequired,
     currentValue: PropTypes.string.isRequired,
-    // newSlected: PropTypes.string.isRequired,
 }
 export default SingleBook
