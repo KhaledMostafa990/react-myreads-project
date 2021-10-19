@@ -12,12 +12,12 @@ class BookShelf extends Component {
                     <div className="bookshelf-books">
                         <ol className="books-grid">    
                             {this.props.booksIn.map((book)=> (
-                                
-                                 this.props.shelfName.includes(book.shelf) ?
-                                    <li key={book.id}>
+                                this.props.shelfName.includes(book.shelf) ?
+                                <li key={book.id}>
+                                        
                                         <SingleBook
                                             bookTitle={book.title}
-                                            bookAuthors={book.authors ? book.authors : 'Unknown'}
+                                            bookAuthors={book.authors ?  book.authors.join(' - ') : 'Unknown'}
                                             bookImage={book.imageLinks.thumbnail}
                                             currentValue={book.shelf}
                                             onShelfChange={(e)=> this.props.onShelfChange(book,e)}
