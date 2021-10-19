@@ -10,9 +10,9 @@
 
 ## Overview
 
-This is a completed the 1st project for avanced web dev track at udacity (react& redux & webpack)
-The My Reads App are two pages there's sections describes 3 defferent shelves on the main page
-and there's another page to search for a new books and add it to shelves in the main page.
+This is a completed the 1st project for advanced web dev ND at Udacity (react & redux & webpack)
+My Reads App are two pages there's sections describes 3 defferent shelves on the main page
+and there's another page to search for a new books and add it to my current shelves in the main page.
 
 ### The project requirements
 

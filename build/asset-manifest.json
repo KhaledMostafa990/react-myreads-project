@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-myreads-project/static/css/main.e6da298c.chunk.css",
-  "main.js": "/react-myreads-project/static/js/main.ee6163b3.chunk.js",
-  "main.js.map": "/react-myreads-project/static/js/main.ee6163b3.chunk.js.map",
-  "static/js/1.18dcaebb.chunk.js": "/react-myreads-project/static/js/1.18dcaebb.chunk.js",
-  "static/js/1.18dcaebb.chunk.js.map": "/react-myreads-project/static/js/1.18dcaebb.chunk.js.map",
+  "main.css": "/react-myreads-project/static/css/main.7668f553.chunk.css",
+  "main.js": "/react-myreads-project/static/js/main.aa442f83.chunk.js",
+  "main.js.map": "/react-myreads-project/static/js/main.aa442f83.chunk.js.map",
+  "static/js/1.7b80e309.chunk.js": "/react-myreads-project/static/js/1.7b80e309.chunk.js",
+  "static/js/1.7b80e309.chunk.js.map": "/react-myreads-project/static/js/1.7b80e309.chunk.js.map",
   "runtime~main.js": "/react-myreads-project/static/js/runtime~main.ccda5781.js",
   "runtime~main.js.map": "/react-myreads-project/static/js/runtime~main.ccda5781.js.map",
   "static/media/App.css": "/react-myreads-project/static/media/arrow-drop-down.9d4e3f36.svg",
-  "static/css/main.e6da298c.chunk.css.map": "/react-myreads-project/static/css/main.e6da298c.chunk.css.map",
+  "static/css/main.7668f553.chunk.css.map": "/react-myreads-project/static/css/main.7668f553.chunk.css.map",
   "index.html": "/react-myreads-project/index.html",
-  "precache-manifest.50f05613b29a41090f0bf42d7a325ff2.js": "/react-myreads-project/precache-manifest.50f05613b29a41090f0bf42d7a325ff2.js",
+  "precache-manifest.e422913f0a07bbeac6c445f3edc8287e.js": "/react-myreads-project/precache-manifest.e422913f0a07bbeac6c445f3edc8287e.js",
   "service-worker.js": "/react-myreads-project/service-worker.js"
 }
