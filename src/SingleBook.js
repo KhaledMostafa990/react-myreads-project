@@ -7,7 +7,8 @@ import PropTypes from 'prop-types'
         return (
             <div className="book">
                 <div className="book-top">
-                    <div className="book-cover" style={{width: 128, height: 193, backgroundImage: `url(${this.props.bookImage})`}}></div>
+                <div className="book-cover" style={{width: 128, height: 193,  
+                backgroundImage: `url(   "  ${ this.props.bookImage  }  "  )` }}></div>
                     <div className="book-shelf-changer">
                         <select onChange={(e)=> this.props.onShelfChange(e)} value={this.props.currentValue}>
                             <option value="" disabled>Move to...</option>
@@ -29,5 +30,6 @@ SingleBook.propTypes = {
     bookTitle: PropTypes.string.isRequired,
     bookImage: PropTypes.string.isRequired,
     currentValue: PropTypes.string.isRequired,
+    bookAuthors: PropTypes.string.isRequired
 }
 export default SingleBook

@@ -10,22 +10,21 @@
 
 ## Overview
 
-This is a completed the 1st project for avanced web dev track at udacity (react& redux & webpack)
-The My Reads App are two pages there's sections describes 3 defferent shelves on the main page
-and there's another page to search for a new books and add it to shelves in the main page.
+This is a completed the 1st project for advanced web Dev ND at Udacity in react, redux and webpack
+My Reads App are two pages there's sections describes 3 defferent shelves on the main page
+and there's another page to search for a new books and add it to the current shelves in the main page.
 
 ### The project requirements
 
-Users should be able to:
+Users should be able:
 
-- move the books from the current shelf on main page or from search page to the selected shelf
-- click to move on search page to add new books, and see the default shelves value for those books is 'none'
-- view the options shelf state for the books which's on main page shelves selected if they find in search page
-- The search page also has a link to / (the root URL), which leads back to the main page.
+- to move the books from the current shelf on the main page or from the search page to the selected shelf in the book options
+- to click add button to move on the search page to add new books, the default book options value for those books is 'none'
+- to find the current shelf state for the books which's available on the main page in the search page as well
 
 ### Links
 
-- Final project URL: [https://khaledmostafa990.github.io/react-myreads-project/]
+- Final project URL: [https://udacity-reactnd-myreadsapp.netlify.app/]
 - Stater code : [https://github.com/udacity/reactnd-project-myreads-starter]
 
 ## My process

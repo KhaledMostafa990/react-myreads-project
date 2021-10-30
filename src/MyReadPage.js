@@ -7,6 +7,7 @@ class MyReadPage extends Component {
 
 
   render() {
+      
         return (
             <div className="list-books">
                 <div className="list-books-title">
@@ -38,16 +39,17 @@ class MyReadPage extends Component {
                     />
                                              
                     </div>
+
                 </div>
 
                 {/* To search page*/}
                 <div className="open-search">
-                    <Link to='/search'>
-                        <button>Add a book</button>
+                    <Link className="button" to='/search'>
+                        Add a book
                     </Link>
                 </div>
 
-          
+                <div style={{fontSize: 12, textAlign: 'center'}}>Development by <a href="https://github.com/KhaledMostafa990">Khaled Farghly</a>.</div>
           </div>
         )
     }
